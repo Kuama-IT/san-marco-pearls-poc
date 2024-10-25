@@ -1,0 +1,17 @@
+C:\Users\matte\RiderProjects\pearls\pearls\bin\Debug\pearls.exe.config
+C:\Users\matte\RiderProjects\pearls\pearls\bin\Debug\pearls.exe
+C:\Users\matte\RiderProjects\pearls\pearls\bin\Debug\pearls.pdb
+C:\Users\matte\RiderProjects\pearls\pearls\bin\Debug\CookComputing.XmlRpcV2.dll
+C:\Users\matte\RiderProjects\pearls\pearls\obj\Debug\pearls.csproj.AssemblyReference.cache
+C:\Users\matte\RiderProjects\pearls\pearls\obj\Debug\MainWindow.g.cs
+C:\Users\matte\RiderProjects\pearls\pearls\obj\Debug\App.g.cs
+C:\Users\matte\RiderProjects\pearls\pearls\obj\Debug\pearls_MarkupCompile.cache
+C:\Users\matte\RiderProjects\pearls\pearls\obj\Debug\pearls_MarkupCompile.lref
+C:\Users\matte\RiderProjects\pearls\pearls\obj\Debug\MainWindow.baml
+C:\Users\matte\RiderProjects\pearls\pearls\obj\Debug\pearls.g.resources
+C:\Users\matte\RiderProjects\pearls\pearls\obj\Debug\pearls.Properties.Resources.resources
+C:\Users\matte\RiderProjects\pearls\pearls\obj\Debug\pearls.csproj.GenerateResource.cache
+C:\Users\matte\RiderProjects\pearls\pearls\obj\Debug\pearls.csproj.CoreCompileInputs.cache
+C:\Users\matte\RiderProjects\pearls\pearls\obj\Debug\pearls.csproj.Up2Date
+C:\Users\matte\RiderProjects\pearls\pearls\obj\Debug\pearls.exe
+C:\Users\matte\RiderProjects\pearls\pearls\obj\Debug\pearls.pdb

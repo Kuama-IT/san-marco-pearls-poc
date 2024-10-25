@@ -1,0 +1,80 @@
+﻿<Window x:Class="pearls.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pearls"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="525">
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="2*" />
+            </Grid.RowDefinitions>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBox Text="{Binding License}" />
+                <Button Grid.Column="1" Click="ActivateLicense">Attiva licenza</Button>
+            </Grid>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <StackPanel>
+                    <TextBlock>Porta COM</TextBlock>
+                    <ComboBox x:Name="ComboBoxPorts" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200"
+                              SelectionChanged="ComboBoxPorts_SelectionChanged" />
+                </StackPanel>
+
+                <Button Grid.Column="1" Click="Connect">Connetti</Button>
+            </Grid>
+
+            <Grid Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Click="ProtectionStatus">Stato Licenza</Button>
+                <Button Grid.Column="1" Click="ReadUnits">Leggi unità colore</Button>
+                <Button Grid.Column="2" Click="GetNumberOfDispenserUnits">Leggi unità di dispensazione</Button>
+            </Grid>
+            <Grid Grid.Row="3">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel>
+                        <TextBlock>Codice colorante</TextBlock>
+                        <TextBox Text="{Binding ColorantCode}"></TextBox>
+                    </StackPanel>
+                    <Button Grid.Column="1" Click="GetFillLevel">Leggi livello colorante</Button>
+                </Grid>
+            </Grid>
+            <StackPanel Grid.Row="4">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock>Comando: </TextBlock>
+                    <TextBlock Margin="5 0 0 0" Text="{Binding Command}"></TextBlock>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock>Risposta: </TextBlock>
+                    <TextBlock Margin="5 0 0 0" Text="{Binding Data}"></TextBlock>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock>Errori: </TextBlock>
+                    <TextBlock Margin="5 0 0 0" Text="{Binding Errors}"></TextBlock>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Window>

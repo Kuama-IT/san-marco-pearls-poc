@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pearls", "pearls\pearls.csproj", "{AF2DA3AD-02F5-48D6-8279-812E374F2257}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF2DA3AD-02F5-48D6-8279-812E374F2257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF2DA3AD-02F5-48D6-8279-812E374F2257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF2DA3AD-02F5-48D6-8279-812E374F2257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF2DA3AD-02F5-48D6-8279-812E374F2257}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
